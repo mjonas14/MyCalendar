@@ -2,6 +2,8 @@
 
 ## Description
 
+Link to webpage: https://mjonas14.github.io/MyCalendar/
+
 Hello and welcome to my daily Calendar with planning capabilities. The webpage offers the user time blocks for the regular business hours of the day, with the functionality to add events to various time periods, and the best thing is, once you refresh the page the event stays!
 
 Hopefully this can provide you with some aided planning to organise your day. 
