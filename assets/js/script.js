@@ -6,6 +6,16 @@ $(document).ready(function () {
   // Display current date and time in header
 $('#currentDay').append(dayjs().format("MMMM D YYYY, HH:mm:ss"));
 
+$('.timeBtn').on('click', function () {
+
+  console.log(typeof($(this).text()));
+
+  if ($(this).text() === 'AM') {
+    console.log('Bingo');
+  }
+
+});
+
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
