@@ -1,99 +1,31 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+## Description
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Hello and welcome to my daily Calendar with planning capabilities. The webpage offers the user time blocks for the regular business hours of the day, with the functionality to add events to various time periods, and the best thing is, once you refresh the page the event stays!
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+Hopefully this can provide you with some aided planning to organise your day. 
 
-## User Story
+## Usage
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+THis usage of this webpage is very simple. 
 
-## Acceptance Criteria
+At the top of the page you can see the date and time of when the page was opened. 
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+Each time period in the calendar has the ability to have text added to it. This is so that event can be detailed for the time they are happening. Once an event has been added, click save to save the detail to local storage. This allows you to refresh the page and still have the detail remain in your calendar. 
 
-The following animation demonstrates the application functionality:
+If an event is to be removed from the calendar, simply click the delete button on the right and the event will be removed from the calendar, and from local storage so that when the page is refreshed the event is no longer there. 
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+The save and delete buttons look like this:
+![Alt text](assets/images/Screen%20Shot%202023-03-13%20at%2010.02.23%20PM.png)
 
-## Grading Requirements
+Each time period is colour coded for past (gray), present (red) and future (green), as follows: 
+![Alt text](assets/images/Screen%20Shot%202023-03-13%20at%2010.00.44%20PM.png)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Credits
 
-This Challenge is graded based on the following criteria:
+Thank you to UCB Coding Bootcamp for providing course materials to reference and aid in the coding of this webpage. 
 
-### Technical Acceptance Criteria: 40%
+## License
 
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+N/A
