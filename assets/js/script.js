@@ -23,7 +23,7 @@ $(document).ready(function () {
     $('.row').each(function() {
       var key = $(this).attr('id');
       $(this).children('.description').val(localStorage.getItem(key));
-      var currentHour = parseInt(dayjs().format("HH"))-10;
+      var currentHour = parseInt(dayjs().format("HH"));
       var tenseHour = parseInt($(this).attr('id').split('hour-')[1]);
 
       // Update tense classes based on current time
